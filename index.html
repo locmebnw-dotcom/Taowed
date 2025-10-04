@@ -1,81 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Web</title>
+  <title>Web Của Mình</title>
   <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #001f3f, #0074D9);
+      background: linear-gradient(135deg, #1a0033, #000d4d);
       color: white;
       text-align: center;
+      min-height: 100vh;
     }
+
     header {
       padding: 20px;
-      background: rgba(0, 0, 0, 0.4);
-    }
-    header h1 {
-      margin: 10px 0;
-      font-size: 32px;
-      color: #7FDBFF;
-    }
-    .avatar {
-      width: 120px;
-      height: 120px;
-      border-radius: 50%;
-      border: 3px solid #7FDBFF;
-      margin: 20px auto;
-      display: block;
-    }
-    .container {
-      padding: 20px;
-    }
-    .btn {
-      display: inline-block;
-      padding: 12px 25px;
-      margin: 10px;
-      background: #2ECC40;
-      color: white;
-      text-decoration: none;
-      border-radius: 25px;
+      background: rgba(0, 0, 0, 0.3);
+      font-size: 22px;
       font-weight: bold;
-      transition: 0.3s;
     }
-    .btn:hover {
-      background: #01FF70;
+
+    h1 {
+      font-size: 32px;
+      margin: 20px 0;
+      color: #9d7fff;
     }
+
+    .avatar {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin: 20px 0;
+      border: 3px solid #9d7fff;
+    }
+
     .illustration {
+      width: 80%;
+      max-width: 600px;
       margin-top: 30px;
-      max-width: 90%;
-      border-radius: 15px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+      border-radius: 20px;
+      box-shadow: 0 0 25px rgba(157,127,255,0.6);
     }
-    footer {
-      margin-top: 40px;
-      padding: 10px;
-      font-size: 14px;
-      background: rgba(0,0,0,0.3);
+
+    button {
+      background: #9d7fff;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 25px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      margin: 20px 10px;
+      color: white;
+    }
+
+    button:hover {
+      background: #b89fff;
     }
   </style>
 </head>
 <body>
-  <header>
-    <img src="https://i.imgur.com/6VBx3io.png" alt="Avatar" class="avatar">
-    <h1>Welcome to My Website</h1>
-    <p>A simple modern website with green-blue style ✨</p>
-  </header>
+  <header>🌌 My Website</header>
 
-  <div class="container">
-    <a href="#" class="btn">Download</a>
-    <a href="#" class="btn">Join Discord</a>
+  <h1>Xin chào, đây là trang web xanh tím</h1>
 
-    <img src="content://media/external/downloads/1000192647" alt="Illustration" class="content://media/external/downloads/1000186220">
+  <!-- Avatar -->
+  <img src="avatar.png" alt="Avatar" class="avatar">
+
+  <p>Ảnh minh hoạ:</p>
+
+  <!-- Minh hoạ -->
+  <img src="illustration.jpg" alt="Minh hoạ" class="illustration">
+
+  <div>
+    <button>Download</button>
+    <button>Join Discord</button>
   </div>
-
-  <footer>
-    <p>© 2025 My Website | Built with 💚 and HTML</p>
-  </footer>
 </body>
 </html>
