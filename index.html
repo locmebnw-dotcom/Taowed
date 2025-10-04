@@ -1,15 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Trang web đầu tiên</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Web</title>
   <style>
-    body { font-family: Arial; text-align: center; margin-top: 50px; }
-    h1 { color: blue; }
-    p { font-size: 18px; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #001f3f, #0074D9);
+      color: white;
+      text-align: center;
+    }
+    header {
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.4);
+    }
+    header h1 {
+      margin: 10px 0;
+      font-size: 32px;
+      color: #7FDBFF;
+    }
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid #7FDBFF;
+      margin: 20px auto;
+      display: block;
+    }
+    .container {
+      padding: 20px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 25px;
+      margin: 10px;
+      background: #2ECC40;
+      color: white;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #01FF70;
+    }
+    .illustration {
+      margin-top: 30px;
+      max-width: 90%;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    }
+    footer {
+      margin-top: 40px;
+      padding: 10px;
+      font-size: 14px;
+      background: rgba(0,0,0,0.3);
+    }
   </style>
 </head>
 <body>
-  <h1>Xin chào!</h1>
-  <p>Đây là trang web mình tự code bằng GitHub Pages 😍</p>
+  <header>
+    <img src="https://i.imgur.com/6VBx3io.png" alt="Avatar" class="avatar">
+    <h1>Welcome to My Website</h1>
+    <p>A simple modern website with green-blue style ✨</p>
+  </header>
+
+  <div class="container">
+    <a href="#" class="btn">Download</a>
+    <a href="#" class="btn">Join Discord</a>
+
+    <img src="https://i.imgur.com/3ZQ3Z8R.png" alt="Illustration" class="illustration">
+  </div>
+
+  <footer>
+    <p>© 2025 My Website | Built with 💚 and HTML</p>
+  </footer>
 </body>
 </html>
